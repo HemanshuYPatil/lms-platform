@@ -8,8 +8,8 @@ import ConfettiProvider from "@/components/providers/confetti-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LMS Platform | by Ibnu",
-  description: "LMS Platform by Next.js ",
+  title: "LMS Platform",
+  description: " ",
   icons: {
     icon: "/icon.svg",
   },

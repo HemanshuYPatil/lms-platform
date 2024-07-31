@@ -15,12 +15,17 @@ const NavbarRoutes = () => {
   const isTeacherPage = pathname?.startsWith("/teacher");
   const isCoursePage = pathname?.includes("/courses");
   const isSearchPage = pathname === "/search";
-
+  const isdashboard = pathname === "/";
   return (
     <>
       {isSearchPage && (
         <div className="hidden md:block ">
           <SearchInput />
+        </div>
+      )}
+      {isdashboard && (
+        <div style={{fontSize: '20px'}}>
+          <h2>Dashboard</h2>
         </div>
       )}
       <div className="flex gap-x-2 ml-auto">

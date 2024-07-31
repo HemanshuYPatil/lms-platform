@@ -6,6 +6,7 @@ import { IconBadge } from "@/components/icon-badge";
 import {
   CircleDollarSign,
   File,
+  IndianRupeeIcon,
   LayoutDashboard,
   ListChecks,
 } from "lucide-react";
@@ -123,7 +124,7 @@ const CourseIdPage: React.FC<Props> = async ({ params }) => {
             </div>
             <div className="">
               <div className="flex items-center gap-x-2">
-                <IconBadge icon={CircleDollarSign} />
+                <IconBadge icon={IndianRupeeIcon} />
                 <h2 className="text-xl">Sell your course</h2>
               </div>
               <PriceForm initialData={course} courseId={course.id} />
